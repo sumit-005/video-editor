@@ -5,6 +5,8 @@ import Dashboard from "../pages/Dashboard/Dashboard";
 import Layout from "../components/Layout/Layout";
 import Account from "../pages/Account/Account";
 const NavRouter = () => {
+  // Routing of the entire app
+
   return (
     <BrowserRouter>
       <Route
@@ -12,8 +14,8 @@ const NavRouter = () => {
           <Layout {...props}>
             <Switch>
               <Route path="/" exact component={Dashboard} />
-              <Route path="/gallery" component={Gallery} />
-              <Route path="/account" component={Account} />
+              <Route path="/gallery" exact component={Gallery} />
+              <Route path="/account" exact component={Account} />
             </Switch>
           </Layout>
         )}

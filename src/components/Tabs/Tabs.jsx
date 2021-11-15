@@ -2,6 +2,8 @@ import React, { useState, useCallback } from "react";
 import "./Tabs.scss";
 
 const Tabs = ({ children }) => {
+
+  // Reuasble Tabs Component
   const [activeTab, setActiveTab] = useState(children[0].props.label);
   const handleActiveTab = useCallback((label) => setActiveTab(label), []);
 

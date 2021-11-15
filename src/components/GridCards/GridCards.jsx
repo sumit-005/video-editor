@@ -1,23 +1,26 @@
-import React, { useCallback, useState } from "react";
-// import { Container, Row, Col } from "react-grid-system";
+import React from "react";
 import "./styles.scss";
 
-
-const GridCards = ({cards}) => {
-
-
-  // const [activeIndex, setActiveIndex] = useState(0);
-  // const changeActiveIndex = useCallback(
-  //   (newIndex) => setActiveIndex(newIndex),
-  //   []
-  // );
+const GridCards = ({ cards }) => {
+  // To get active card data
+  // const [activeTab, setActiveTab] = useState("center");
+  // const handleActiveTab = useCallback((label) => setActiveTab(label), []);
 
   return (
     <div className="container">
       <div className="row">
         {cards.map((item) => (
           <div className="col">
-            <img src={item.image} className="image" alt="actor-card" />
+            <img
+              src={item.image}
+              alt="actor-card"
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   handleActiveTab(item.name);
+              // }}
+              // className={item.name === activeTab ? ["image-active"] : "image"}
+              className="image"
+            />
             <p className="actor-name">{item.name}</p>
           </div>
         ))}

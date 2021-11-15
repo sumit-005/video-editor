@@ -10,7 +10,10 @@ import logo from "../../assests/icons/logo.png";
 import account from "../../assests/images/account.png";
 
 const Sidebar = (props, { defaultActive }) => {
+  // To get current location
   const location = props.history.location;
+  // To store the state even after refresh
+  // UsePersistedState in future
   const lastActiveIndexString = localStorage.getItem("lastActiveIndex");
   const lastActiveIndex = Number(lastActiveIndexString);
 
@@ -28,11 +31,8 @@ const Sidebar = (props, { defaultActive }) => {
   ];
 
   const getImagePath = (path, index) => {
-    console.log("index", index);
-    console.log("path", path);
     const data = sideMenuIcons[path];
     const image = path !== index ? data.icon : data.activeIcon;
-    console.log("image", image);
     return image;
   };
 

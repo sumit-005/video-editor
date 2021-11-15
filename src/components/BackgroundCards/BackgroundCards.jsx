@@ -12,6 +12,7 @@ import background6 from "../../assests/images/background-6.png";
 import background7 from "../../assests/images/background-7.png";
 
 const BackgroundCards = () => {
+  // fake data to store future api response
   const imageList = [
     { id: 1, name: "Anna", image: background1 },
     { id: 2, name: "YoYo", image: background2 },

@@ -5,6 +5,9 @@ import image2 from "../../assests/images/voice-2.png";
 import image3 from "../../assests/images/voice-3.png";
 
 const VoiceCards = () => {
+
+  // Didn't get actual concept so used image for now
+
   return (
     <div className="voice-container">
       <div className="voice-card">

@@ -1,4 +1,5 @@
 import './App.css';
+import './variables.scss';
 import NavRouter from './NavRouter/NavRouter';
 
 function App() {

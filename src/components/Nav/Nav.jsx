@@ -5,6 +5,7 @@ import ArrowDown from "../../assests/icons/arrow -down.png";
 const Nav = ({ component }) => {
   return (
     <>
+      {/* Condtionally render the navbar */}
       {component === "dashboard" && (
         <div className="navbar">
           <div className="title">
@@ -36,7 +37,7 @@ const Nav = ({ component }) => {
           <div className="title">
             <h2>My Account</h2>
           </div>
-            <p className="logout">Logout </p>
+          <p className="logout">Logout </p>
         </div>
       )}
 

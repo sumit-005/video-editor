@@ -74,7 +74,7 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #3860ad;
+  color: var(--color-primary);
   border: none;
   outline: none;
 }
@@ -91,4 +91,11 @@
   color: #1c7714;
   border: none;
   outline: none;
+}
+
+
+@media (max-width: 900px) {
+  .plans-container {
+    flex-direction: column;
+  }
 }
