@@ -1,5 +1,6 @@
 import React from "react";
 import AccountProfile from "../../components/AccountProfile/AccountProfile";
+import Billing from "../../components/Billing/Billing";
 import Nav from "../../components/Nav/Nav";
 import Plans from "../../components/Plans/Plans";
 import { Tab, Tabs } from "../../components/Tabs/Tabs";
@@ -18,7 +19,7 @@ const Account = () => {
             <Plans />
           </Tab>
           <Tab label={"billing"} tabName={"Billing"}>
-            console.log('Alignment', Alignment)
+            <Billing />
           </Tab>
         </Tabs>
       </div>

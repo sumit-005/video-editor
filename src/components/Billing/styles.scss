@@ -1,0 +1,25 @@
+.billing {
+  margin-top: 60px;
+  table {
+    width: 65%;
+  }
+  th {
+    color: #222222;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding: 10px;
+  }
+  tr {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222222;
+  }
+  td {
+    padding: 8px;
+  }
+}
