@@ -1,0 +1,37 @@
+.navbar {
+  padding: 20px;
+  padding-bottom: 0px;
+  margin-left: 40px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.arrow-icon {
+  margin-left: 20px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.list-divider {
+  opacity: 0.1;
+  border-bottom: 1px solid #000000;
+  padding: 0 14px;
+  margin: 0 60px 20px 20px;
+}
+
+.logout {
+  font-weight: 500;
+  font-size: 15px;
+  text-align: right;
+  color: #ee6363;
+  padding-top: 5px;
+}

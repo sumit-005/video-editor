@@ -1,0 +1,23 @@
+.tabs-box {
+  display: block;
+  background: transparent;
+}
+
+.tabs-tab {
+  color: #999999;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  margin-right: 20px;
+}
+
+.tabs-tab-active {
+  color: #3860ad;
+}
+
+.tabs-container {
+  text-align: left;
+}

@@ -1,0 +1,51 @@
+.gallery-card {
+  margin-left: 40px;
+  width: 286px;
+  height: 238px;
+  background: #f4f4f4;
+  border-radius: 6px;
+  padding: 5px;
+  text-align: center;
+}
+
+.video-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.video-tabs {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.video-tabs-list {
+  color: #999999;
+  border: 1px solid #999999;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 3px 13px;
+  text-align: center;
+  color: #999999;
+  margin-right: 6px;
+}
+
+.image-container {
+  position: relative;
+}
+.image-container img {
+  display: block;
+}
+.image-container .more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 6px 9px;
+}

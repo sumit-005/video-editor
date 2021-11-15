@@ -1,0 +1,33 @@
+.sidebar-parent {
+  background: #ffffff;
+  width: 102px;
+  height: 100vh;
+  padding: 0 10px;
+}
+
+.sidebar-items {
+  padding: 18px;
+  margin: 10px;
+  transition: all 0.25s ease-in-out;
+  outline: none;
+}
+
+.sidebar-logo {
+  margin: 51px 38px 40px;
+}
+
+.sidebar-items-active {
+  margin: 10px;
+  background: #ebf2ff;
+  border-radius: 10px;
+  transition: all 0.25s ease-in-out;
+}
+
+.sidebar-account {
+  position: absolute;
+  bottom: 0;
+  padding: 22px 18px;
+  margin: 15px 15px;
+  transition: all 0.25s ease-in-out;
+  outline: none;
+}
